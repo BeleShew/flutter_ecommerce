@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce/pages/mainPage.dart';
 import 'package:flutter_ecommerce/pages/product_detail.dart';
+import 'package:flutter_ecommerce/themes/light_color.dart';
 import 'package:flutter_ecommerce/themes/theme.dart';
 import 'package:flutter_ecommerce/widgets/customRoute.dart';
 
@@ -14,8 +15,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'E-Commerce ',
       theme: AppTheme.lightTheme.copyWith(
-        textTheme:TextTheme(
-
+        textTheme:const TextTheme(
+          displayLarge: TextStyle(
+            fontFamily: 'Mulish',
+            fontSize: 12,
+            fontWeight: FontWeight.w800,
+            color: LightColor.black,
+          ),
         )
       ),
       debugShowCheckedModeBanner: false,

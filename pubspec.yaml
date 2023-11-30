@@ -55,9 +55,9 @@ flutter:
   uses-material-design: true
   assets:
    - assets/
-#  fonts:
-#   - family: Mulish
-#     fonts:
-#       - asset: fonts/Mulish-Regular.ttf
-#       - asset: fonts/Mulish-Italic.ttf
-#         style: italic
+  fonts:
+   - family: Mulish
+     fonts:
+       - asset: assets/fonts/Mulish-Regular.ttf
+       - asset: assets/fonts/Mulish-Italic.ttf
+         style: italic
